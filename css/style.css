@@ -40,4 +40,5 @@ a::before {
 
 #button:hover {
     background-color: #148D8D;
+    text-shadow: 3px 3px 5px #000;
 }
