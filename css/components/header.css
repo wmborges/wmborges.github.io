@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0E2C40;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before {
+    content: '';
+    background-color: #4C5B84;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-shadow: 3px 3px 5px #000;
+    transform: scale(1.05);
+}

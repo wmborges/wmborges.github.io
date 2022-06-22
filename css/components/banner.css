@@ -1,0 +1,28 @@
+.banner {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #3A4042;
+    height: 625px;
+    border-bottom: 10px solid #000;
+    padding-left: 150px;
+    padding-top: 15px;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner .box {
+    margin-bottom: 40px;
+}
+
+#photo img {
+    margin-left: 150px;
+}
