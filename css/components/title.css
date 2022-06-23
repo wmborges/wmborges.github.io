@@ -5,3 +5,15 @@
     text-shadow: 4px 4px 0 #000;
     margin-bottom: 22px;
 }
+
+.title.-second {
+    color: #FFF;
+    text-shadow: none;
+    text-align: center;
+}
+
+.right .title {
+    font-family: 'Press Start 2P', sans-serif;
+    color: #FFF;
+    font-size: 25px;
+}
