@@ -9,6 +9,7 @@
     color: #FFF;
     text-decoration: none;
     cursor: pointer;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }
 
 .button:hover {
