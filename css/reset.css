@@ -6,3 +6,7 @@ body {
 	font-family: "Fira Code", Arial, Helvetica, sans-serif;
 	vertical-align: baseline;
 }
+
+h3 {
+	margin: 0;
+}
