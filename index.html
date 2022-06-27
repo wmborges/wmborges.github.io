@@ -13,38 +13,40 @@
 
     <!--Styles-->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/box.css">
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-action.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/main-box.css">
     <link rel="stylesheet" href="css/components/main-title.css">
-    <link rel="stylesheet" href="css/components/subtitle.css">
-    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/wrapper-card.css">
 
 </head>
 <body>
-    <header class="header">
+    <header class="main-header">
         <img src="assets/img/logo.png" alt="Wagner Borges logo">
-        <nav class="menu">
-            <a href="">Skills</a>
-            <a href="">Projetos</a>
-            <a href="">Sobre</a>
-            <a href="">Contatos</a>
-            <a class="button" href="">Download CV</a>
+        <nav>
+            <a class="main-action" href="">Skills</a>
+            <a class="main-action" href="">Projetos</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="">Contatos</a>
+            <a class="main-button" href="">Download CV</a>
         </nav>
     </header>
-    <section class="banner">
+    <section class="main-banner">
         <div class="wrapper"">
-            <div class="box">
+            <div class="main-box">
                 <h1 class="main-title">Wagner Borges</h1>
-                <h2 class="subtitle">FrontEnd Developer</h2>
+                <h2 class="main-subtitle">FrontEnd Developer</h2>
             </div>
             <div class="navigation">
-                <button class="button">Download CV</button>
-                <button class="button">Contatos</button>
+                <button class="main-button">Download CV</button>
+                <button class="main-button">Contatos</button>
             </div>
         </div>
         <div id="photo">
@@ -52,7 +54,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="main-section">
         <h2 class="main-title -second">Skills</h2>
         <div class="wrapper-skill">
             <article class="skill-tec">
@@ -92,5 +94,29 @@
             </article>
         </div>
     </section>
+    <section class="main-section -bgBlack -bdFirst">
+        <h2 class="main-title -second">Projetos</h2>
+
+        <div class="wrapper-card">
+            <a href="https://github.com/wmborges/netflix-clone" target="_blank">
+                <figure class="card-project">
+                    <img class="logo" src="assets/img/Netflix.png" alt="Netflix Clone">
+                </figure>
+                <p class="card-description">Netflix Clone</p>
+            </a>
+            <a href="https://github.com/wmborges/instagram.dio" target="_blank">
+                <figure class="card-project">
+                    <img class="logo" src="assets/img/model.png" alt="Instagram landpage">
+                </figure>   
+                <p class="card-description">Instagram landpage</p>
+            </a>
+            <a href="https://wmborges.github.io" target="_blank">
+                <figure class="card-project">
+                    <img class="logo" src="assets/img/logo.png" alt="Página Pessoal">
+                </figure>
+                <p class="card-description">Portifólio</p>
+            </a>
+        </div>
+    </section>
 </body>
-</html>
+</html> 

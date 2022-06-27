@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     background-color: #4C5B84;
     box-shadow: 5px 5px 0px #000;
@@ -9,10 +9,9 @@
     color: #FFF;
     text-decoration: none;
     cursor: pointer;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }
 
-.button:hover {
+.main-button:hover {
     background-color: #148D8D;
     text-shadow: 3px 3px 5px #000;
     transform: scale(1.05);
