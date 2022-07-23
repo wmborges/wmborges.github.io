@@ -4,4 +4,4 @@ Página criada com o curso do projeto de portifólio do [Marco Bruno Dev](https:
 
 Aproveite para ver o [GitHub feliz dele](https://github.com/marcobrunodev).
 
-* Ainda está no inicio - até agora foi criado apenas o cabeçalho (Header) e o banner.
+*Obs.:* Ainda falta fazer a página ficar responsiva.

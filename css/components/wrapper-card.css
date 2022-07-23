@@ -8,15 +8,8 @@
     text-align: center;
 }
 
-.wrapper-card .logo {
-    max-width: 280px;
-    height: 280px;
-    box-shadow: 5px 5px 0px #3A4042;
-}
-
-.wrapper-card .card-description {
+.wrapper-card a {
     color: #fff;
     font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
+	text-decoration: none;
 }
