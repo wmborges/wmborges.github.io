@@ -20,6 +20,7 @@
 .main-carousel::before { /*Pontilhado antes e depois do traço*/
     content: '';
     display: block;
+    box-sizing: border-box;
     position: absolute;
     left: 0;
     top: 30px;
@@ -49,5 +50,5 @@
 .main-carousel .elements {
     display: flex;
     justify-content: space-between;
-    transform: translate(100px);
+    transform: translate(0px);
 }
