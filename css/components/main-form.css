@@ -1,6 +1,12 @@
 .main-form {
-    display: flex;
-    flex-direction: column;
     background-color: #3A4042;
     padding: 50px 40px;
+}
+
+.main-form .main-title {
+    margin-bottom: 50px;
+}
+
+.main-form .main-input {
+    margin-bottom: 20px;
 }
