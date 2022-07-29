@@ -1,0 +1,6 @@
+.main-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #3A4042;
+    padding: 50px 40px;
+}
