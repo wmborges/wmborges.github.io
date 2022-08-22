@@ -9,3 +9,30 @@
 .main-header img {
     height: 60px;
 }
+
+@media(max-width: 980px) {
+    .main-header > .menu {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        background-color: #0E2C40;
+        align-items: flex-start;
+        top: 0;
+        left: 0;
+        gap: 10px;
+        width: 100%;
+        padding: 16px;
+    }
+
+    .main-header .icon-menu {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+}
+
+@media(min-width: 980px){
+    .main-header > .icon-menu {
+        display: none;
+    }
+}

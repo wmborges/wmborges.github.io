@@ -14,6 +14,7 @@
     <!--Styles-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/icon-menu.css">
     <link rel="stylesheet" href="css/components/main-action.css">
     <link rel="stylesheet" href="css/components/main-button.css">
     <link rel="stylesheet" href="css/components/main-banner.css">
@@ -38,14 +39,25 @@
 </head>
 <body>
     <header class="main-header">
+        
         <img src="assets/img/logo.png" alt="Wagner Borges logo">
-        <nav>
+
+        <a class="icon-menu" href="#menu">
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </a>
+
+        <nav id="menu" class="menu">
             <a class="main-action" href="">Skills</a>
             <a class="main-action" href="">Projetos</a>
             <a class="main-action" href="">Sobre</a>
             <a class="main-action" href="">Contatos</a>
             <a class="main-button" href="">Download CV</a>
         </nav>
+        
     </header>
     <section class="main-banner">
         <div class="wrapper">
@@ -204,6 +216,7 @@
     </footer>
 
     <script src="js/components/main-carousel.js"></script>
+    <script src="js/components/main-menu.js"></script>
 
 </body>
 </html> 
